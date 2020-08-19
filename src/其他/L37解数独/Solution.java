@@ -1,7 +1,9 @@
+package 其他.L37解数独;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class T37解数独 {
+public class Solution {
     NumsList[][] tab;
     boolean bool = true;
 
@@ -170,7 +172,7 @@ public class T37解数独 {
     }
 
     public static void main(String[] args) {
-        T37解数独 sol = new T37解数独();
+        Solution sol = new Solution();
         char[][] board = {{'.','.','9','7','4','8','.','.','.'},{'7','.','.','.','.','.','.','.','.'},{'.','2','.','1','.','9','.','.','.'},{'.','.','7','.','.','.','2','4','.'},{'.','6','4','.','1','.','5','9','.'},{'.','9','8','.','.','.','3','.','.'},{'.','.','.','8','.','3','.','2','.'},{'.','.','.','.','.','.','.','.','6'},{'.','.','.','2','7','5','9','.','.'}};
         for(char[] ch : board){
             for(char c : ch){

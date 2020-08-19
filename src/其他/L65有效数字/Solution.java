@@ -1,4 +1,6 @@
-public class T65有效数字 {
+package 其他.L65有效数字;
+
+public class Solution {
     public boolean isNumber(String s) {
         int i = 0;
         int pointNum = 0;
@@ -69,7 +71,7 @@ public class T65有效数字 {
     }
 
     public static void main(String[] args) {
-        T65有效数字 sol = new T65有效数字();
+        Solution sol = new Solution();
         String s = " 99e2.5 ";
         System.out.println(sol.isNumber(s));
     }
